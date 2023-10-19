@@ -1,5 +1,5 @@
 import './App.css'
-import FormElement from './form/pembahasan/FormElement'
+import Form from './Form'
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <div className='test'>
         <h1>Test</h1>
-        <FormElement />
+        <Form/>
       </div>
     </>
   )

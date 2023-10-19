@@ -1,9 +1,9 @@
-import FormElement from "./pembahasan/FormElement";
+import Validation from "./pembahasan/Validation";
 
 export default function Form() {
   return (
     <div>
-      <FormElement />
+      <Validation/>
     </div>
   );
 }
