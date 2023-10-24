@@ -23,7 +23,8 @@ function Validation() {
     }
 
     let validation = new Validator(data, rules);
-    validation.passes();
+    validation.errors.first("email")
+    validation.errors.first("password")
 
   };
   return (
