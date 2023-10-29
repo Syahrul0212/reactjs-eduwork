@@ -1,12 +1,12 @@
 import './App.css'
-import Berita from './Berita'
+import BeritaClass from './BeritaClassComponent'
 
 function App() {
 
   return (
     <>
       <div className='test'>
-        <Berita />
+        <BeritaClass/>
       </div>
     </>
   )
