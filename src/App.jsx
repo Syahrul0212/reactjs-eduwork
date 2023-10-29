@@ -1,13 +1,12 @@
 import './App.css'
-import Form from './Form'
+import Berita from './Berita'
 
 function App() {
 
   return (
     <>
       <div className='test'>
-        <h1>Test</h1>
-        <Form/>
+        <Berita />
       </div>
     </>
   )
